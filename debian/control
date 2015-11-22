@@ -1,0 +1,18 @@
+Source: breeze-icons
+Section: kde
+Priority: optional
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Maximiliano Curia <maxy@debian.org>
+Build-Depends: cmake (>= 2.8.12), debhelper (>= 9), extra-cmake-modules
+Standards-Version: 3.9.6
+Homepage: https://projects.kde.org/projects/kde/frameworks/breeze-icons
+Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/frameworks/breeze-icons.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/breeze-icons.git
+
+Package: breeze-icon-theme
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Default Plasma icon theme.
+ This is the default icon theme for the KDE Plasma 5 desktop.
+ .
+ This package is part of the Breeze theme module.

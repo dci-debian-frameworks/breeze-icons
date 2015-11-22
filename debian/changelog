@@ -1,0 +1,7 @@
+breeze-icons (4:5.16.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * Initial package, split upstream from breeze
+  * Keep epoch so the binary package can still install
+  * Remove oxygen-icon-theme depend, now inherits hicolor
+
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Sun, 22 Nov 2015 13:20:49 +0000
