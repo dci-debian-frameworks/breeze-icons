@@ -1,4 +1,4 @@
-breeze-icons (4:5.16.0-0ubuntu1) UNRELEASED; urgency=medium
+breeze-icons (4:5.17.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Jonathan Riddell ]
   * Initial package, split upstream from breeze
@@ -7,5 +7,6 @@ breeze-icons (4:5.16.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Create kubuntu_xenial_archive branch for kubuntu. 
+  * New upstream release Xenial
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Sun, 22 Nov 2015 13:20:49 +0000
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 14 Dec 2015 02:10:09 +0000
