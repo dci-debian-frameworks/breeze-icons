@@ -8,5 +8,6 @@ breeze-icons (4:5.17.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Scarlett Clark ]
   * Create kubuntu_xenial_archive branch for kubuntu. 
   * New upstream release Xenial
+  * Add dep to pkg-kde-tools. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 14 Dec 2015 02:10:09 +0000
