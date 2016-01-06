@@ -1,4 +1,4 @@
-breeze-icons (5.17.0-0ubuntu1) UNRELEASED; urgency=medium
+breeze-icons (5.18.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Jonathan Riddell ]
   * Initial package, split upstream from breeze
@@ -12,5 +12,6 @@ breeze-icons (5.17.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Philip Muškovac ]
   * Keep epoch for the binary package for upgrades until we have a final
     decision whether to rename or use an epoch
+  * New upstream release
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 14 Dec 2015 02:10:09 +0000
+ -- Philip Muškovac <yofel@kubuntu.org>  Wed, 06 Jan 2016 14:54:20 +0100
