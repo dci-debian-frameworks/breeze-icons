@@ -1,13 +1,16 @@
-breeze-icons (4:5.17.0-0ubuntu1) UNRELEASED; urgency=medium
+breeze-icons (5.17.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Jonathan Riddell ]
   * Initial package, split upstream from breeze
-  * Keep epoch so the binary package can still install
   * Remove oxygen-icon-theme depend, now inherits hicolor
 
   [ Scarlett Clark ]
   * Create kubuntu_xenial_archive branch for kubuntu. 
   * New upstream release Xenial
   * Add dep to pkg-kde-tools. 
+
+  [ Philip Muškovac ]
+  * Keep epoch for the binary package for upgrades until we have a final
+    decision whether to rename or use an epoch
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 14 Dec 2015 02:10:09 +0000
