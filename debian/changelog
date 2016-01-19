@@ -1,4 +1,4 @@
-breeze-icons (4:5.17.0-1~) UNRELEASED; urgency=medium
+breeze-icons (4:5.18.0-1~) UNRELEASED; urgency=medium
 
   [ Jonathan Riddell ]
   * Initial package, split upstream from breeze
@@ -7,5 +7,6 @@ breeze-icons (4:5.17.0-1~) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.17)
+  * New upstream release (5.18.0).
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Sun, 22 Nov 2015 13:20:49 +0000
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 19 Jan 2016 21:10:17 +0100
