@@ -1,4 +1,4 @@
-breeze-icons (5.18.0-0ubuntu1) UNRELEASED; urgency=medium
+breeze-icons (5.18.0-0ubuntu1) xenial; urgency=medium
 
   [ Jonathan Riddell ]
   * Initial package, split upstream from breeze
