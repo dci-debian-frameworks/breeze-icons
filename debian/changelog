@@ -1,10 +1,11 @@
-breeze-icons (4:5.20.0-1~1.gbp8ec75e) UNRELEASED; urgency=medium
+breeze-icons (4:5.20.0-1~2.gbp9d15d3) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @8ec75ea1f4336b6210ac52ee361e2b36b01fa6dd **
+  ** SNAPSHOT build @9d15d3d10716349f07a91d0244157d71dfd2994c **
 
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Fri, 25 Mar 2016 11:57:39 +0100
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Mon, 28 Mar 2016 19:05:46 +0200
 
 breeze-icons (4:5.19.0-1) experimental; urgency=medium
 
