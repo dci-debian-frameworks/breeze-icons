@@ -1,6 +1,6 @@
-breeze-icons (4:5.21.0-1~1.gbp73198a) UNRELEASED; urgency=medium
+breeze-icons (4:5.21.0-1~2.gbp84d19d) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @73198a407b2bf0b1e11b632545aa1932c8f479c8 **
+  ** SNAPSHOT build @84d19d58369f9622ed54f07d74677509275d19df **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @c79ae035b016dafc19abca406d9a203a90d9c9dc **
@@ -14,8 +14,9 @@ breeze-icons (4:5.21.0-1~1.gbp73198a) UNRELEASED; urgency=medium
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 3.9.8
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 10 Apr 2016 00:43:33 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 30 Apr 2016 20:04:07 +0200
 
 breeze-icons (4:5.19.0-1) experimental; urgency=medium
 
