@@ -1,21 +1,3 @@
-breeze-icons (4:5.19.0-1) experimental; urgency=medium
-
-  * New upstream release (5.19.0).
-
- -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 15:16:42 +0100
-
-breeze-icons (4:5.18.0-1) experimental; urgency=medium
-
-  [ Jonathan Riddell ]
-  * Initial package, split upstream from breeze
-  * Keep epoch so the binary package can still install
-  * Remove oxygen-icon-theme depend, now inherits hicolor
-
-  [ Maximiliano Curia ]
-  * New upstream release (5.17)
-  * New upstream release (5.18.0).
-
- -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 13:34:43 +0100
 breeze-icons (5.21.0-0neon) xenial; urgency=medium
 
   * New release
@@ -45,3 +27,22 @@ breeze-icons (5.18.0-0ubuntu1) UNRELEASED; urgency=medium
   * New upstream release
 
  -- Philip Muškovac <yofel@kubuntu.org>  Wed, 06 Jan 2016 14:54:20 +0100
+
+breeze-icons (4:5.19.0-1) experimental; urgency=medium
+
+  * New upstream release (5.19.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 13 Feb 2016 15:16:42 +0100
+
+breeze-icons (4:5.18.0-1) experimental; urgency=medium
+
+  [ Jonathan Riddell ]
+  * Initial package, split upstream from breeze
+  * Keep epoch so the binary package can still install
+  * Remove oxygen-icon-theme depend, now inherits hicolor
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.17)
+  * New upstream release (5.18.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 13:34:43 +0100
