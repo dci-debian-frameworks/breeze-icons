@@ -1,3 +1,11 @@
+breeze-icons (4:5.22.0-1~1.gbp5324f5) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @5324f5370b9595f9bc34feea7f8736d4563c87eb **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 12:43:29 +0200
+
 breeze-icons (4:5.21.0-1) experimental; urgency=medium
 
   [ Automatic packaging ]
