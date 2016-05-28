@@ -1,3 +1,9 @@
+breeze-icons (4:5.22.0-2) unstable; urgency=medium
+
+  * Make the icon theme arch:all
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 28 May 2016 16:42:38 +0200
+
 breeze-icons (4:5.22.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
