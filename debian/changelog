@@ -1,3 +1,11 @@
+breeze-icons (4:5.23.0-1~1.gbp3a1cdd) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @3a1cdd6e4f5edf8f1c9ea4e9b6d4067a9a86926e **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Mon, 13 Jun 2016 00:43:32 +0200
+
 breeze-icons (4:5.22.0-2) unstable; urgency=medium
 
   * Make the icon theme arch:all
