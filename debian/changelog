@@ -1,3 +1,11 @@
+breeze-icons (4:5.25.0-3~1.gbpd1f660) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @d1f660c0bfdbe36e12ddf5a8cbbdd99fad86d61d **
+
+  * release to unstable, as team upload
+
+ -- Pino Toscano <pino@debian.org>  Sat, 27 Aug 2016 19:43:19 +0200
+
 breeze-icons (4:5.25.0-2) unstable; urgency=medium
 
   * Team upload.
