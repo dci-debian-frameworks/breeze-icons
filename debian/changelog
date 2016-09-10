@@ -1,10 +1,16 @@
-breeze-icons (4:5.25.0-3~1.gbpd1f660) UNRELEASED; urgency=medium
+breeze-icons (4:5.26.0-1~1.gbp1b0384) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @1b03840bbc13155a836a2912e3f0cbbe1c8116f2 **
+
+  [ Pino Toscano ]
   ** SNAPSHOT build @d1f660c0bfdbe36e12ddf5a8cbbdd99fad86d61d **
 
   * release to unstable, as team upload
 
- -- Pino Toscano <pino@debian.org>  Sat, 27 Aug 2016 19:43:19 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 10 Sep 2016 12:43:52 +0200
 
 breeze-icons (4:5.25.0-2) unstable; urgency=medium
 
