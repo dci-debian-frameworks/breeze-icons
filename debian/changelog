@@ -1,3 +1,50 @@
+breeze-icons (4:5.25.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * De-duplicate common files:
+    - copy the symlink_duplicates.sh script from oxygen-icon5, and use it
+      in rules
+    - add the fdupes build dependency
+  * Add the hicolor-icon-theme dependency, as base of the icon themes.
+  * Do not use the ${shlibs:Depends} substvar.
+
+ -- Pino Toscano <pino@debian.org>  Sat, 27 Aug 2016 16:34:19 +0200
+
+breeze-icons (4:5.25.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 18 Aug 2016 17:20:33 +0200
+
+breeze-icons (4:5.23.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 18 Jun 2016 08:02:32 +0200
+
+breeze-icons (4:5.22.0-2) unstable; urgency=medium
+
+  * Make the icon theme arch:all
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 28 May 2016 16:42:38 +0200
+
+breeze-icons (4:5.22.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 19 May 2016 00:17:46 +0200
+
+breeze-icons (4:5.21.0-1) experimental; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 3.9.8
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 05 May 2016 15:07:24 +0200
+
 breeze-icons (5.26.0-0neon) xenial; urgency=medium
 
   * New release
