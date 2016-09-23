@@ -16,7 +16,7 @@ Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/breeze-icons.git
 
 Package: breeze-icon-theme
 Architecture: all
-Depends: ${misc:Depends}, hicolor-icon-theme
+Depends: hicolor-icon-theme, ${misc:Depends}
 Description: Default Plasma icon theme.
  This is the default icon theme for the KDE Plasma 5 desktop.
  .
