@@ -6,6 +6,3 @@ DEB_VERSION_UPSTREAM_REVISION := $(shell dpkg-parsechangelog | awk '/^Version: /
 
 override_dh_auto_configure:
 	dh_auto_configure -Skf5 -- -DBINARY_ICONS_RESOURCE=ON
-
-override_dh_gencontrol:
-	dh_gencontrol -pbreeze-icon-theme -- -v4:$(DEB_VERSION_UPSTREAM_REVISION)
