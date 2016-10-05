@@ -1,2 +1,4 @@
-usr/share/icons/breeze-dark/breeze-icons-dark.rcc
-usr/share/icons/breeze/breeze-icons.rcc
+usr/share/icons/breeze-dark/*/*/*.svg
+usr/share/icons/breeze-dark/index.theme
+usr/share/icons/breeze/*/*/*.svg
+usr/share/icons/breeze/index.theme
