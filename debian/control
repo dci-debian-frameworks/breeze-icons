@@ -25,7 +25,7 @@ Description: Default Plasma icon theme.
 
 Package: breeze-icons-rcc
 Architecture: all
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: hicolor-icon-theme, ${misc:Depends}
 Description: Default Plasma icon theme in binary resource.
  This is the default icon theme for the KDE Plasma 5 desktop
  in a binary resource format to support non-Linux systems
