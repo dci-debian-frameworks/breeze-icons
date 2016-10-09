@@ -1,10 +1,16 @@
-breeze-icons (4:5.27.0-1~1.gbpde6643) UNRELEASED; urgency=medium
+breeze-icons (4:5.27.0-1~2.gbp1b90a0) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @1b90a09683f3ccc2c26e4d092fbd533642daa614 **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @de664394925c0a0f71ab9a1da2f6e6c3bc279aff **
 
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 08 Oct 2016 12:43:44 +0200
+  [ Maximiliano Curia ]
+  * Add upstream patch: remove-duplicates.patch
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 09 Oct 2016 10:25:11 +0200
 
 breeze-icons (4:5.26.0-1) unstable; urgency=medium
 
