@@ -5,7 +5,7 @@ include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 # dhmk does not support -indep variant!
 override_dh_install:
 	$(overridden_command)
-	find $(CURDIR)/debian/breeze-icon-theme -type d -print0 |xargs -0 rmdir --ignore-fail-on-non-empty
+	find $(CURDIR)/debian/breeze-icon-theme -type d -print0 |xargs --no-run-if-empty -0 rmdir --ignore-fail-on-non-empty
 	bash $(CURDIR)/debian/symlink_duplicates.sh $(CURDIR)/debian/breeze-icon-theme $(CURDIR)/debian/breeze-icon-theme/usr/share/icons
 
 override_dh_auto_configure:
