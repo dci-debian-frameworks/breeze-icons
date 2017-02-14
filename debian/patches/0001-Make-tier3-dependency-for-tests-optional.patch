@@ -1,0 +1,70 @@
+From bea8084cfe1a9d878115c85d3df04d5034ede380 Mon Sep 17 00:00:00 2001
+From: Hannah von Reth <vonreth@kde.org>
+Date: Sun, 5 Feb 2017 14:30:36 +0100
+Subject: [PATCH] Make tier3 dependency for tests optional
+
+Reviewers: sitter, svuorela
+
+Reviewed By: svuorela
+
+Subscribers: svuorela, #frameworks
+
+Tags: #frameworks
+
+Differential Revision: https://phabricator.kde.org/D4444
+---
+ CMakeLists.txt           |  2 +-
+ autotests/CMakeLists.txt | 22 ++++++++++++++++------
+ 2 files changed, 17 insertions(+), 7 deletions(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index f080def..bd3d832 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -78,4 +78,4 @@ add_subdirectory(autotests)
+ add_subdirectory(icons)
+ add_subdirectory(icons-dark)
+ 
+-feature_summary(WHAT ALL FATAL_ON_MISSING_REQUIRED_PACKAGES)
++feature_summary(WHAT ALL FATAL_ON_MISSING_REQUIRED_PACKAGES INCLUDE_QUIET_PACKAGES)
+diff --git a/autotests/CMakeLists.txt b/autotests/CMakeLists.txt
+index 44757c1..a61b658 100644
+--- a/autotests/CMakeLists.txt
++++ b/autotests/CMakeLists.txt
+@@ -4,8 +4,16 @@ include(ECMAddTests)
+ 
+ if(BUILD_TESTING)
+     find_package(Qt5 ${REQUIRED_QT_VERSION} CONFIG REQUIRED Core Test)
+-    find_package(KF5Config 5.0)
+-    find_package(KF5IconThemes 5.0)
++    find_package(KF5Config 5.0 QUIET)
++    find_package(KF5IconThemes 5.0 QUIET)
++
++    set_package_properties(KF5Config PROPERTIES
++                                     PURPOSE "Auto tests"
++                                     TYPE OPTIONAL)
++    set_package_properties(KF5IconThemes PROPERTIES
++                                     PURPOSE "Auto tests"
++                                     TYPE OPTIONAL)
++
+ 
+     configure_file(testdata.h.cmake ${CMAKE_CURRENT_BINARY_DIR}/testdata.h)
+     ecm_add_test(symlinktest.cpp
+@@ -20,8 +28,10 @@ if(BUILD_TESTING)
+         TEST_NAME "dupe"
+         LINK_LIBRARIES Qt5::Test
+     )
+-    ecm_add_test(scalabletest.cpp
+-        TEST_NAME "scalable"
+-        LINK_LIBRARIES Qt5::Test KF5::IconThemes KF5::ConfigCore
+-    )
++    if (KF5::IconThemes AND KF5::ConfigCore)
++        ecm_add_test(scalabletest.cpp
++            TEST_NAME "scalable"
++            LINK_LIBRARIES Qt5::Test KF5::IconThemes KF5::ConfigCore
++        )
++    endif()
+ endif()
+-- 
+2.7.4
+
