@@ -22,3 +22,12 @@ Description: Default Plasma icon theme.
  This is the default icon theme for the KDE Plasma 5 desktop.
  .
  This package is part of the Breeze theme module.
+
+Package: breeze-icon-theme-rcc
+Architecture: all
+Depends: ${misc:Depends}
+Description: RCC resources for the breeze icon theme
+ Breeze is the default icon theme for the KDE Plasma 5 desktop. This package
+ contains the icons in RCC format.
+ .
+ This package is part of the Breeze theme module.
