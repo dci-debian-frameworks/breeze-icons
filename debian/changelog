@@ -4,6 +4,7 @@ breeze-icons (4:5.28.0-2) UNRELEASED; urgency=medium
   * Enable the RCC icon resources:
     - pass -DBINARY_ICONS_RESOURCE=ON to cmake to explicitly enable them
     - add a new breeze-icon-theme-rcc binary for *.rcc files
+  * Bump Standards-Version to 4.0.0, no changes required.
 
  -- Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Jun 2017 12:17:09 +0200
 
