@@ -1,16 +1,16 @@
 #!/usr/bin/make -f
 
-include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
+%:
+	dh $@ --with kf5,pkgkde_symbolshelper --buildsystem kf5
 
 override_dh_auto_configure:
-	$(overridden_command) -- -DBINARY_ICONS_RESOURCE=ON
+	dh_auto_configure -- -DBINARY_ICONS_RESOURCE=ON
 
 override_dh_auto_install:
-	$(overridden_command) --destdir=debian/breeze-icon-theme
+	dh_auto_install --destdir=debian/breeze-icon-theme
 
-# dhmk does not support -indep variant!
 override_dh_install:
-	$(overridden_command) --sourcedir=debian/breeze-icon-theme
+	dh_install --sourcedir=debian/breeze-icon-theme
 	rm debian/breeze-icon-theme/usr/share/icons/*/*.rcc
 	find $(CURDIR)/debian/breeze-icon-theme -type d -print0 |xargs -0 rmdir --ignore-fail-on-non-empty
 	bash $(CURDIR)/debian/symlink_duplicates.sh $(CURDIR)/debian/breeze-icon-theme $(CURDIR)/debian/breeze-icon-theme/usr/share/icons
