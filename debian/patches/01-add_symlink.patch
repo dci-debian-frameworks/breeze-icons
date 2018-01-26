@@ -1,0 +1,14 @@
+From: andreas kainz <kainz.a@gmail.com>
+Date: Tue, 9 Jan 2018 15:51:33 +0100
+Subject: remove duplicate
+
+---
+
+diff --git a/icons-dark/actions/24/gnumeric-pagesetup-hf-cell.svg b/icons-dark/actions/24/gnumeric-pagesetup-hf-cell.svg
+new file mode 120000
+index 0000000..526c671
+--- /dev/null
++++ b/icons-dark/actions/24/gnumeric-pagesetup-hf-cell.svg
+@@ -0,0 +1 @@
++gnumeric-formulaguru.svg
+\ No newline at end of file
