@@ -3,6 +3,9 @@ Date: Tue, 9 Jan 2018 15:51:33 +0100
 Subject: remove duplicate
 
 ---
+ icons-dark/actions/24/gnumeric-pagesetup-hf-cell.svg | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 120000 icons-dark/actions/24/gnumeric-pagesetup-hf-cell.svg
 
 diff --git a/icons-dark/actions/24/gnumeric-pagesetup-hf-cell.svg b/icons-dark/actions/24/gnumeric-pagesetup-hf-cell.svg
 new file mode 120000
